@@ -36,7 +36,7 @@ public class PaymentInfo {
     private Address debitorAddress;
 
     @NotNull
-    @Size(min = 2, max = 35)
+    @Size(min = 9, max = 35)
     @Pattern(regexp = "^[a-zA-Z0-9]")
     private long creditorAccount;
 
